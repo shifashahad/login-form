@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+	background:linear-gradient(90deg, #FFEFD5, #FFDAB9);
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+.login{
+	border: none;
+	border-bottom: 3px solid pink;
+	border-right: 3px solid pink;
+	border-radius: 24px;
+	background: none;
+	font-weight: 700;
+	padding:10px;
+	margin: 10px;
+	width:100%;
+	transition: .2s;
+	padding-top: 20px;
+	height: 100%;
+}
+
+.login:active,.login:focus,.login:hover{
+	outline: none;
+	border-color: grey;
+}
+.main{
+	width:420px;
+	border:2px solid grey;
+	padding: 20px;
+	border-radius: 40px;
+}
+.main h1{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.submit_button{
+  border: 2px solid grey;
+  padding: 10px;
+  font-weight: 700;
+  width:100%;
+  border-radius: 24px;
+  background: none;
+  cursor: pointer;
+}
+.submit_button:hover{
+	color:grey;
+}
+.addon{
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.addon a{
+	padding-left: 100px;
+	color: black;
+	text-decoration: none;
+}
+.register{
+  text-decoration: none;
+  color: black
+}
+.register:hover,.addon a:hover{
+	color: brown;
+}
+p{
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
